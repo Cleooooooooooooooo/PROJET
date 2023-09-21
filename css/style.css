@@ -1,11 +1,14 @@
 html {
-    background: whitesmoke;
+    background: rgb(199, 197, 197);
 }
 
-body {
-    width: 90%;
-    margin: auto;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+h1 {
+    text-align: center;
+}
 
+#photoP {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: ;
 }
