@@ -68,19 +68,5 @@ img {
     transition: left 0.65s ease-out;
 }
 
-#carre-mouvant{
-    background-color: slategray;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    border: 2px solid black;
-}
 
 
-.caracteristique{
-    border-radius: 80%;
-}
-
-h4{
-    color: aqua;
-}
