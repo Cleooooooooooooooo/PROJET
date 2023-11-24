@@ -168,3 +168,19 @@ img {
       margin-top: 0;
     }
   }
+
+#section3{
+    display:flex;
+    background-color: red;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+#Box1{
+    background-color: blue ;
+    flex-direction: row;
+}
+#Box2{
+    background-color: black;
+}
