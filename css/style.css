@@ -42,7 +42,7 @@ img {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background:black;/* mettre lespoint de slide en noir*/
+    background: black;
     border-radius: 50px;
     margin: 0 0.2em 1em;
 }
@@ -61,12 +61,8 @@ img {
     z-index: 10;
     transition: left 0s 0.75s;
 }
-
 [id^="slide"]:checked + .slide-img {
     left: 0;
     z-index: 100;
     transition: left 0.65s ease-out;
 }
-
-
-
