@@ -47,7 +47,7 @@ img {
     margin: 0 0.2em 1em;
 }
 .menu label:hover,.menu label:focus {
-    background: #1c87c9;
+    background: #c91c47;
 }
 .slide-input{
     opacity: 0;
@@ -158,7 +158,7 @@ img {
 
 /* Style de la face arrière */
 .flip-box-back {
-    background-color: dodgerblue;
+    background-color: rgb(214, 145, 155);
     color: white;
     transform: rotateY(180deg);
   
