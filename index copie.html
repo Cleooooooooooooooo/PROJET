@@ -7,6 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  
+  <div class="navbar" id="myNavbar">
+      <a href="#accueil">Accueil</a>
+      <a href="#a-propos">À propos</a>
+      <a href="#services">Qualité</a>
+      <a href="#contact">Formulaire</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776; <!-- C'est le symbole du burger -->
+      </a>
+  </div>
+  
+  <script>
+      function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "navbar") {
+              x.className += " responsive";
+          } else {
+              x.className = "navbar";
+          }
+      }
+  </script>
 </head>
 <body>
     <header>
@@ -143,7 +170,12 @@
       <button type="submit" class="submit-btn">Envoyer</button>
   </form>
   <!-- Formulaire se termine ici -->
+
+ 
+
+
     </body>
+
 
 
 </html>
